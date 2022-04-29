@@ -1,0 +1,17 @@
+[
+  {
+    "title": "Inicio",
+    "icon": "home",
+    "path": "/"
+  },
+  {
+    "title": "Productos",
+    "icon": "shopping-cart",
+    "path": "/productos"
+  },
+  {
+    "title": "Contacto",
+    "icon": "address-book",
+    "path": "/contacto"
+  }
+]

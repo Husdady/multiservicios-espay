@@ -1,0 +1,58 @@
+#page-not-found > .robot {
+  width: 30%;
+  min-width: 300px;
+  top: 12%;
+  z-index: -1;
+}
+
+#page-not-found > .robot.right {
+  right: 0;
+  transform: rotate(340deg);
+}
+
+#page-not-found .wrapper {
+  max-width: 920px;
+  line-height: 1.4;
+  padding-left: 15px;
+  padding-right: 15px;
+  z-index: 999;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+#page-not-found .wrapper .type-error {
+  font-size: 8em;
+  color: var(--bg-green);
+  font-family: "Maven pro", sans-serif;
+}
+
+#page-not-found .wrapper .title {
+  font-size: 46px;
+  color: var(--bs-gray-700);
+  font-family: "Maven pro", sans-serif;
+}
+
+#page-not-found .wrapper p {
+  font-family: 'Archivo Narrow', sans-serif;
+  font-size: 1.05em;
+  color: var(--bs-gray-600);
+  font-weight: 600;
+  max-width: 500px;
+}
+
+#page-not-found .go-to-home {
+  font-size: 14px;
+  padding: 16px 38px;
+  transition: .2s all;
+  -webkit-transition: .2s all;
+  font-family: 'Archivo Narrow', sans-serif;
+}
+
+@media screen and (max-width: 1024px) {
+  #page-not-found > .robot {
+    display: none;
+  }
+}

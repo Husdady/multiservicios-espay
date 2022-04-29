@@ -1,0 +1,141 @@
+.tm-contact {
+  padding: 5% 0;
+}
+
+.tm-contact .title {
+  font-weight: bold;
+  font-size: 24px;
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.tm-contact .title,
+.tm-contact .tm-info-title {
+  color: var(--bg-green);
+}
+
+.tm-contact .border-bottom {
+  border-color: var(--bg-green) !important;
+}
+
+.tm-contact .tm-contact-form .form-group {
+  margin-bottom: 30px;
+}
+
+.tm-contact .tm-contact-form .form-group > .form-control {
+  font-size: 1.1rem;
+}
+
+.tm-contact .tm-contact-form .form-group > .form-control:focus {
+  color: #495057;
+  border-color: #80bdff;
+  outline: 0;
+  box-shadow: 0 0 4.5px 2px var(--bg-green);
+}
+
+.tm-contact address {
+  font-style: normal;
+  color: var(--bs-gray-600);
+  line-height: 1.8;
+  font-size: 19px;
+}
+
+.tm-contact .tm-info-title {
+  font-size: 1.6rem;
+  font-weight: 300;
+  margin-bottom: 30px;
+}
+
+.tm-contact .tm-address-box {
+  max-width: 100%;
+}
+
+.tm-contact .tm-contact-form {
+  max-width: 300px;
+}
+
+.tm-contact .tm-contact-form textarea::-webkit-scrollbar {
+  display: none;
+}
+
+.tm-contact .tm-contact-icon {
+  display: inline-block;
+  margin-right: 25px;
+  color: #319966;
+}
+
+.tm-contact .tm-contact-link {
+  display: block;
+  color: #626364;
+  margin-bottom: 25px;
+  text-decoration: none;
+}
+
+@media (min-width: 992px) {
+  .tm-contact {
+    max-width: 900px;
+  }
+}
+
+@media (min-width: 768px) {
+  .tm-contact {
+    max-width: 840px;
+  }
+}
+
+@media (max-width: 910px) {
+  .tm-contact {
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+
+  .tm-contact .col-md-6 {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+
+  .tm-contact .col-md-6:first-of-type {
+    order: 1;
+    padding-top: 5%;
+  }
+
+  .tm-contact .tm-contact-form {
+    max-width: 100% !important;
+    padding-bottom: 5%;
+  }
+}
+
+@media (max-width: 890px) {
+  .tm-contact-section {
+    padding: 5%
+  }
+}
+/* 
+@media (min-width: 768px) {
+  .tm-contact-form {
+    max-width: 310px;
+  }
+
+  .tm-address-box {
+    max-width: 385px;
+  }
+} */
+
+@media (max-width: 680px) {
+  .tm-contact-section .col-md-6:last-of-type {
+    display: block !important;
+    margin-bottom: 7%;
+  }
+}
+
+@media (max-width: 540px) {
+  .tm-contact {
+    padding-top: 10%;
+    padding-bottom: 10%;
+  }
+}
+
+@media (max-width: 450px) {
+  .tm-contact-section .col-md-6:last-of-type {
+    padding-top: 50px !important;
+  }
+}

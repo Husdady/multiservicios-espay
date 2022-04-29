@@ -1,0 +1,113 @@
+/*------------- Producto no encontrado -------------*/
+.container-product.information .product-not-found > figure {
+	width: 400px;
+	height: 400px;
+}
+
+.container-product.information .product-not-found > .title {
+	width: 70%;
+	font-size: 3em;
+	margin-top: -50px;
+	line-height: 1.15;
+	font-family: "Dosis", sans-serif;
+}
+
+.container-product.information .product-not-found > .go-to-products-sections {
+  margin-top: 1.5em;
+  font-family: "Noto Sans", sans-serif;
+}
+
+/*------------- Producto -------------*/
+.container-product.information {
+	min-height: 500px;
+	border: 1px solid;
+	border-color: var(--bg-gray-100);
+	border-color: rgba(0, 0, 0, .1);
+}
+
+.container-product.information {
+	width: 95%;
+}
+
+/*------------- Imágenes del producto -------------*/
+.container-product.information .product-images {
+	width: 35%;
+	padding: 1.5em;
+}
+
+.container-product.information .product-images .carousel .slide .product-image {
+	height: 300px;
+	background-position: center;
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+
+.container-product.information .product-images .carousel .slide .product-image > img {
+	display: none;
+}
+
+.container-product.information .product-images .carousel .control-dots .dot {
+	box-shadow: none;
+	background-color: var(--bg-gray-2);
+}
+
+.container-product.information .product-images > .contact-distributor {
+	width: 75%;
+	margin-top: 15px;
+	font-family: "Noto Sans", sans-serif;
+}
+
+.container-product.information .product-images > .note,
+.container-product.information .product-information > .product-content {
+	color: var(--bg-gray-200);
+	font-family: "Lato", sans-serif;
+}
+
+/*------------- Información del producto -------------*/
+.container-product.information .product-information {
+	width: 65%;
+	padding: 2em 3em;
+	border-left: 1px solid;
+  border-left-color: var(--bg-gray-100);
+  border-left-color: rgba(0, 0, 0, .1);
+}
+
+.container-product.information .product-information > .product-name {
+	line-height: 1.1;
+	font-size: 3.25em;
+	font-family: "Ubuntu", sans-serif;
+}
+
+.container-product.information .product-information .list,
+.container-product.information .product-information > .product-description {
+	font-family: 'Noto Sans', sans-serif;
+}
+
+.container-product.information .product-information > .title,
+.container-product.information .product-information > .product-name {
+	color: var(--bg-darkgreen)
+}
+
+@media (max-width: 1024px) {
+	.container-product.information .product-images,
+	.container-product.information .product-information {
+		width: 100%;
+	}
+
+	.container-product.information .product-images {
+		border-bottom: 1px solid; 
+		border-bottom-color: var(--bg-gray);
+  	border-bottom-color: rgba(0, 0, 0, .1);
+	}
+
+	.container-product.information .product-information {
+		padding: 1.5em;
+		border-left: none;
+	}
+}
+
+@media (max-width: 768px) {
+	.container-product.information .product-not-found > .title {
+		width: 90%;
+	}
+}

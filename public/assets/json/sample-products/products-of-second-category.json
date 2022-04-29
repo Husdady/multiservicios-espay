@@ -1,0 +1,26 @@
+[
+  {
+    "title": "Titulo del Producto 05",
+    "description": "His audiam deserunt in, eum ubique voluptatibus te. In reque dicta usu. Ne rebum dissentiet eam, vim omnis deseruisse id. Ullum deleniti vituperata at quo, insolens complectitur te eos, ea pri dico munere propriae.",
+    "img": "preview-products/product01.jpg",
+    "price": "$45 / $55"
+  },
+  {
+    "title": "Titulo del Producto 06",
+    "description": "His audiam deserunt in, eum ubique voluptatibus te. In reque dicta usu. Ne rebum dissentiet eam, vim omnis deseruisse id. Ullum deleniti vituperata at quo, insolens complectitur te eos, ea pri dico munere propriae.",
+    "img": "preview-products/product01.jpg",
+    "price": "$45 / $55"
+  },
+  {
+    "title": "Titulo del Producto 07",
+    "description": "His audiam deserunt in, eum ubique voluptatibus te. In reque dicta usu. Ne rebum dissentiet eam, vim omnis deseruisse id. Ullum deleniti vituperata at quo, insolens complectitur te eos, ea pri dico munere propriae.",
+    "img": "preview-products/product01.jpg",
+    "price": "$45 / $55"
+  },
+  {
+    "title": "Titulo del Producto 08",
+    "description": "His audiam deserunt in, eum ubique voluptatibus te. In reque dicta usu. Ne rebum dissentiet eam, vim omnis deseruisse id. Ullum deleniti vituperata at quo, insolens complectitur te eos, ea pri dico munere propriae.",
+    "img": "preview-products/product01.jpg",
+    "price": "$45 / $55"
+  }
+]

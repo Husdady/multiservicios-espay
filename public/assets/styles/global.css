@@ -1,0 +1,110 @@
+:root {
+  --bg-green: #2F956D;
+  --bg-darkgreen: #036841;
+  --bg-blue: #569DBD;
+  --bg-skyblue: #189cf0;
+  --bg-success: #319966;
+  --bg-red: #d00f21;
+  --bg-gray-100: #cdcdcd;
+  --bg-gray-200: #adadad;
+  --bs-placeholder-rgb: 219, 219, 219;
+  --bs-placeholder-opacity: .5;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-size: 17px;
+  overflow-x: hidden;
+  font-family: 'Open Sans', Arial, sans-serif;
+}
+
+#__next {
+  overflow: hidden;
+}
+
+li {
+  list-style: none;
+}
+
+.h-100vh {
+  height: 100vh;
+}
+
+.error-message {
+  font-size: 15px;
+  font-family: 'Lato', sans-serif;
+}
+
+.opacity:hover {
+  opacity: .6
+}
+
+.background-effect {
+  border: 2px solid transparent !important;
+}
+
+.background-effect:hover {
+  background-color: #ffffff !important;
+  background-color: var(--bs-white) !important;
+  border: 2px solid var(--bg-green) !important;
+  color: var(--bg-green) !important;
+}
+
+.scale:active {
+  transform: scale(85%);
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--bg-green);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+span label:before {
+  content: "";
+  margin-right: 10px;
+  display: inline-flex;
+  width: 17px;
+  height: 17px;
+  font-size: 11px;
+  padding: 3px;
+  border-radius: 3px;
+  background: #c4c4c4;
+}
+
+input[type=checkbox]:checked+label:before {
+  content: "\f00c";
+  font-weight: 900;
+  font-family: "Font Awesome 5 Pro";
+  display: inline-flex;
+  color: hsla(0, 0%, 100%, .8);
+  background: rgba(0, 0, 0, .8);
+}
+
+#nprogress .bar {
+  background: #2F956D;
+  background: var(--bg-green);
+  z-index: 99999999999999999999;
+}
+
+#nprogress .spinner {
+  display: none;
+}
+
+.bg-placeholder {
+  --bs-bg-opacity: 1;
+  background-color: rgba(var(--bs-placeholder-rgb), var(--bs-bg-opacity))!important;
+}
