@@ -7,9 +7,7 @@ import { isFunction } from "@utils/Validations";
 const initialState = {
   limit: 1,
   searchValue: '',
-  showLoadMore: true,
   activeCategory: null,
-  currentFilter: types.SORT_PRODUCTS_BY_NEWEST,
 };
 
 const filters = (state = initialState, action) => {
@@ -30,6 +28,4 @@ const filters = (state = initialState, action) => {
   }
 }
 
-// Obtener el estado del reducer
-export const getFiltersState = ({ filters }) => ({ ...filters });
 export default filters;

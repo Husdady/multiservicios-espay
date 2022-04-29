@@ -44,6 +44,4 @@ const products = (state = initialState, action) => {
   }
 }
 
-// Obtener el estado del reducer
-export const getProductsState = ({ products }) => ({ products }) 
 export default products;
