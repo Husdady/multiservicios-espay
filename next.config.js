@@ -2,6 +2,7 @@ require('dotenv').config();
 const webpack = require('webpack');
 
 module.exports = {
+  target: 'serverless',
   images: {
     domains: ['res.cloudinary.com', 'multiservicios-espay.netlify.app'],
   },
