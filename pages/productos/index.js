@@ -7,9 +7,6 @@ import AppName from "@layouts/common/AppName"
 import Search from "@root/src/components/layouts/products/Products.Search"
 import Products from "@root/src/components/layouts/products"
 
-// Librarys
-import dynamic from "next/dynamic";
-
 // Headers
 import { ProductsHeader } from '@headers'
 
